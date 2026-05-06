@@ -1,0 +1,42 @@
+/* Container Principal */
+.card-aluno {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+/* Tipografia */
+.aluno-nome {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.25rem;
+}
+
+.aluno-curso {
+  margin: 0 0 20px 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Botão Estilizado */
+.btn-perfil {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Hover no Botão */
+.btn-perfil:hover {
+  background-color: #0056b3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
