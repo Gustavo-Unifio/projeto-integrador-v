@@ -1,0 +1,31 @@
+.container-notas {
+  font-family: sans-serif;
+  max-width: 300px;
+  margin: 20px;
+  margin: 0 auto;
+}
+
+.lista-alunos {
+  list-style: none;
+  padding: 0;
+}
+
+.aluno-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-weight: 500;
+}
+
+/* Classe para Nota >= 7 */
+.aprovado {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+/* Classe para Nota < 7 */
+.reprovado {
+  color: #e74c3c;
+  font-weight: bold;
+}

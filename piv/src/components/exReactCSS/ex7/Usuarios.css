@@ -1,0 +1,39 @@
+/* Container para organização e espaçamento */
+.tela-usuarios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Estilização do Card */
+.usuario-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  
+  /* Sombra (box-shadow) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  transition: all 0.3s ease;
+}
+
+/* Hover no Card */
+.usuario-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+/* Espaçamento interno dos elementos do card */
+.usuario-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.usuario-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
