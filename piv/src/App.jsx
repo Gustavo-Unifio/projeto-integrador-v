@@ -12,6 +12,7 @@ import ListaFilmes from './components/exReactCSS/ex5/ListaFilmes'
 import CabecalhoInline from './components/exReactCSS/ex6/CabecalhoInline'
 import Usuarios from './components/exReactCSS/ex7/Usuarios'
 import GridProdutos from './components/exReactCSS/ex8/GridProdutos'
+import BotoesDinamicos from './components/exReactCSS/ex9/BotoesDinamicos'
 
 function App(){
   return(
@@ -57,6 +58,10 @@ function App(){
       <hr/>
 
       <Vitrine/>
+
+      <hr/>
+
+      <BotoesDinamicos/>
     </div>
   )
 }
